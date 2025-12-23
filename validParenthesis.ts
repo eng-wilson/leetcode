@@ -1,4 +1,4 @@
-function isValid(s: string): boolean {
+function isValid2(s: string): boolean {
   const stack: string[] = [];
 
   for (let i = 0; i <= s.length - 1; i++) {

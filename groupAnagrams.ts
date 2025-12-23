@@ -1,4 +1,4 @@
-function groupAnagrams(strs: string[]): string[][] {
+function groupAnagrams2(strs: string[]): string[][] {
   const answer: any = {};
 
   for (let i = 0; i < strs.length; i++) {

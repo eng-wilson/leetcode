@@ -1,4 +1,4 @@
-function topKFrequent(nums: number[], k: number): number[] {
+function topKFrequent2(nums: number[], k: number): number[] {
   const answer = new Map();
 
   for (let i = 0; i < nums.length; i++) {
